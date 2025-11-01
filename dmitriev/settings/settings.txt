@@ -1,12 +1,5 @@
 {
     "tracks": [
-        {
-            "title": "Kuznetsky Squad - Почти Всегда",
-            "videoPath": "song/n1.mp3",
-            "start": "01:25",
-            "end": "02:15",
-            "coverPath": "images/Я ЛЮБЛЮ КУЗНЕЦКИЙ СКВАД.gif"
-        }
     ],
     "profile": {
         "name": "Dmitriev Ivan",
