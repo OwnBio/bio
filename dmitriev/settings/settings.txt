@@ -1,0 +1,24 @@
+{
+    "tracks": [
+        {
+            "title": "Kuznetsky Squad - Рич Форевер 2",
+            "videoPath": "song/n1.mp3",
+            "start": "00:00",
+            "end": "end",
+            "coverPath": "images/Я ЛЮБЛЮ КУЗНЕЦКИЙ СКВАД.gif"
+        },
+        {
+            "title": "Kuznetsky Squad - Почти Всегда",
+            "videoPath": "song/n2.mp3",
+            "start": "01:25",
+            "end": "end",
+            "coverPath": "images/Я ЛЮБЛЮ КУЗНЕЦКИЙ СКВАД.gif"
+        }
+    ],
+    "profile": {
+        "name": "Dmitriev Ivan",
+        "avatarPath": "/images/avatar.png",
+        "bgPath": "/images/bg.png",
+        "discord": "c0n1cal"
+    }
+}
