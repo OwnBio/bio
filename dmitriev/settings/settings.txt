@@ -1,17 +1,10 @@
 {
     "tracks": [
         {
-            "title": "Kuznetsky Squad - Рич Форевер 2",
-            "videoPath": "song/n1.mp3",
-            "start": "00:00",
-            "end": "end",
-            "coverPath": "images/Я ЛЮБЛЮ КУЗНЕЦКИЙ СКВАД.gif"
-        },
-        {
             "title": "Kuznetsky Squad - Почти Всегда",
-            "videoPath": "song/n2.mp3",
+            "videoPath": "song/n1.mp3",
             "start": "01:25",
-            "end": "end",
+            "end": "02:15",
             "coverPath": "images/Я ЛЮБЛЮ КУЗНЕЦКИЙ СКВАД.gif"
         }
     ],
