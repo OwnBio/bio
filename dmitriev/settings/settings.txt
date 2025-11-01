@@ -10,8 +10,8 @@
     ],
     "profile": {
         "name": "Dmitriev Ivan",
-        "avatarPath": "/images/avatar.png",
-        "bgPath": "/images/bg.png",
+        "avatarPath": "images/avatar.png",
+        "bgPath": "images/bg.png",
         "discord": "c0n1cal"
     }
 }
