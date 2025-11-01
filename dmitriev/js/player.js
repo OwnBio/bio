@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const avatarElement = document.querySelector('.v1_46');
     const discordIconContainer = document.querySelector('.v2001_2');
 
-    // --- Состояние плеера ---
     let playlist = [];
     let currentTrackIndex = 0;
     let startTime = 0;
@@ -82,13 +81,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updatePlayPauseIcon() {
         if (!player.paused) {
-            // PAUSE
             playPauseIcon.style.justifyContent = 'space-between';
             pauseBar1.style.width = '12px';
             pauseBar1.style.transform = 'none';
             pauseBar2.style.display = 'block';
         } else {
-            // PLAY
             playPauseIcon.style.justifyContent = 'center';
             pauseBar1.style.width = '40px';
             pauseBar1.style.transform = 'skewX(20deg)';
@@ -157,24 +154,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
             discordID = settingsObject.profile.discord || 'c0n1cal';
 
-            const defaultAvatarPath = "images/avatar.jpg";
-            let avatarPath = settingsObject.profile.avatarPath;
-
-            if (!avatarPath || avatarPath.trim() === '') {
-                avatarPath = defaultAvatarPath;
-            }
+            let avatarPathFromSettings = settingsObject.profile.avatarPath || "images/avatar.png";
 
             if (avatarElement) {
-                avatarElement.style.backgroundImage = `url("${avatarPath}")`;
+                avatarElement.style.backgroundImage = `url("${avatarPathFromSettings}")`;
             }
 
             if (playlist.length > 0) {
                 loadTrack(0, false);
             } else {
                 console.warn("Плейлист пуст.");
-                // 🚨 ДОБАВЛЕНО: Обновляем UI, если плейлист пуст
                 trackTitleElement.textContent = "Плейлист пуст";
-                // 🚨 И album-cover тоже, чтобы не показывалась обложка
                 albumCoverElement.style.backgroundImage = 'none';
             }
 
